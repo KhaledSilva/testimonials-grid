@@ -1,0 +1,37 @@
+/* @media (min-width: 768px) {
+  .container {
+    flex-direction: row; 
+    flex-wrap: wrap;
+  }
+  .profile {
+  }
+}*/
+
+@media (min-width: 1024px) {
+    .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            "person-1 person-1 person-2 person-5"
+            "person-1 person-1 person-2 person-5"
+            "person-3 person-4 person-4 person-5"
+            "person-3 person-4 person-4 person-5";
+    }
+
+    .profile {
+        margin: 20px;
+    }
+
+    .testimonial-text {
+        font-size: 16px;
+    }
+
+    .person-4 {
+        height: 90%;
+    }
+
+    .person-5 {
+        height: 95%;
+    }
+}

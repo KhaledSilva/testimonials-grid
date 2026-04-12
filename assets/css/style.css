@@ -1,7 +1,7 @@
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 13px;
-    background-color: hsl(214, 17%, 92%);
+    background-color: var(--grey-100);
 }
 .container {
     display: flex;
@@ -13,7 +13,7 @@ body {
 .profile {
     display: flex;
     flex-direction: column;
-    padding: 35px;
+    padding: 38px;
     margin: 25px 45px;
     border-radius: 20px;
     gap: 15px;
@@ -32,6 +32,11 @@ body {
     color: var(--grey-200);
 }
 
+.testimonial-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
 .testimonial-text {
     font-size: 15px;
 }
@@ -41,21 +46,47 @@ body {
 }
 
 .person-1{
-    background-color: var(--purple-500);
+    background: var(--purple-500) url(../images/bg-pattern-quotation.svg) no-repeat top right 90px / 142px;
     color: var(--white);
+    grid-area: person-1;
 }
 .person-2{
     background-color: var(--grey-500);
     color: var(--white);
+    grid-area: person-2;
+
 }
 .person-3{
     background-color: var(--white);
     color: var(--black);
+    grid-area: person-3;
 }
 .person-4{
     background-color: var(--dark-blue);
     color: var(--white);
+    grid-area: person-4;
 }
 .person-5{
+    background-color: var(--white);
     color: var(--black);
+    grid-area: person-5;
+}
+
+.footer {
+    color: var(--purple-50);
+    background-color: var(--grey-400);
+    text-decoration: none;
+    height: 50px;
+    font-size: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    margin-left: 5px;
+    color: var(--purple-300);
 }
