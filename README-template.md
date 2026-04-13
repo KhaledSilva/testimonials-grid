@@ -11,11 +11,8 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -32,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click here]()
+- Live Site URL: [Click here](https://khaledsilva.github.io/testimonials-grid/)
 
 ## My process
 
@@ -47,35 +44,14 @@ Users should be able to:
 
 ### What I learned
 
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+Ways to structure a page using Grid for better organization and alignment—achieving layouts that aren’t possible with Flexbox alone—while understanding when it’s best to use each one and how to combine both effectively.
 
 ### AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
-
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
-
+It was done using ChatGPT to assist with layout alignment and Copilot to optimize the creation of the basic HTML structure.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Github - [@KhaledSilva](https://github.com/KhaledSilva)
+- Linkedin - [@khaled-silva](https://www.linkedin.com/in/khaled-silva/)
 

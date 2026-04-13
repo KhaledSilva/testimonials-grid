@@ -1,11 +1,13 @@
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
   .container {
-    flex-direction: row; 
-    flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "person-1  person-2"
+            "person-3  person-4"
+            "person-5  person-5";
   }
-  .profile {
-  }
-}*/
+}
 
 @media (min-width: 1024px) {
     .container {
