@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here]()
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/responsive-landing-page-using-display-grid-nBmutuXnRx)
 - Live Site URL: [Click here](https://khaledsilva.github.io/testimonials-grid/)
 
 ## My process
